@@ -1,10 +1,18 @@
 import React from "react";
 import HeroMenuCard from "./HeroMenuCard";
+import { Card } from "./HeroMenuCard";
 
 const HeroMenu = () => {
+  const card: Card = {
+    id: 1,
+    title: "Card Title",
+    description: "This is a description of the card.",
+    image: "/backgrounds/landing_bass.jpeg",
+    url: "/card-link",
+  };
   return (
-    <main className="w-1/2 flex flex-col items-start p-2">
-      <HeroMenuCard />
+    <main className="w-full mx-6 grid grid-cols-2 gap-6">
+      <HeroMenuCard card={card} />
     </main>
   );
 };

@@ -19,19 +19,20 @@ const Hero = () => {
   };
 
   return (
-    <>
-      <main
+    <main className="max-w-7xl w-7xl h-[80vh]">
+      <div
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        className="relative bg-[url('/backgrounds/laid_down_body.jpeg')] bg-cover bg-center sm:justify-start  sm:pt-8 sm:px-6 lg:px-8 dark:bg-[url('/backgrounds/laid_down_body.jpeg')] rounded-bl-4xl rounded-tr-4xl border-r border-white sm:items-start opacity-75"
+        className="relative h-full w- bg-[url('/backgrounds/laid_down_body.jpeg')] bg-cover bg-center sm:justify-start sm:pt-8 sm:px-6 lg:px-8 dark:bg-[url('/backgrounds/laid_down_body.jpeg')]sm:items-start opacity-75 flex flex-col items-center justify-center transition-opacity duration-300 ease-in-out"
       >
+        <div className='absolute top-3 right-3 bg-[url("/logos/26_brand_logo.png")] bg-cover bg-center h-20 w-20 opacity-60'></div>
         {isMenuRevealed && (
           <div className="absolute inset-0 flex items-center">
             <HeroMenu />
           </div>
         )}
-      </main>
-    </>
+      </div>
+    </main>
   );
 };
 
