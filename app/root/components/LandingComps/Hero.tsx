@@ -23,7 +23,7 @@ const Hero = () => {
       <div
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        className="relative h-full w- bg-[url('/backgrounds/laid_down_body.jpeg')] bg-cover bg-center sm:justify-start sm:pt-8 sm:px-6 lg:px-8 dark:bg-[url('/backgrounds/laid_down_body.jpeg')]sm:items-start opacity-75 flex flex-col items-center justify-center transition-opacity duration-300 ease-in-out"
+        className="relative h-full md:w-full bg-[url('/backgrounds/laid_down_body.jpeg')] bg-cover bg-center sm:justify-start sm:pt-8 sm:px-6 lg:px-8 dark:bg-[url('/backgrounds/laid_down_body.jpeg')]sm:items-start opacity-75 flex flex-col items-center justify-center transition-opacity duration-300 ease-in-out"
       >
         <div className='absolute top-3 right-3 bg-[url("/logos/26_brand_logo.png")] bg-cover bg-center h-20 w-20 opacity-60'></div>
         {isMenuRevealed && (

@@ -24,7 +24,7 @@ const HeroMenuCard: React.FC<{ card: Card }> = ({ card }) => {
       direction={"down"}
       duration={1000}
       triggerOnce
-      className="bg-white/70 text-black w-full rounded-lg shadow-lg p-4 my-4 flex flex-col justify-center mx-auto hover:bg-indigo-500/50 hover:text-white transition-colors duration-500 ease-in-out"
+      className="bg-white/70 text-black w-1/2 md:w-full rounded-lg shadow-lg p-4 my-4 flex flex-col justify-center mx-auto hover:bg-indigo-500/50 hover:text-white transition-colors duration-500 ease-in-out"
     >
       {Details.map((detail) => (
         <Link href={detail.url} key={detail.id}>
@@ -33,15 +33,17 @@ const HeroMenuCard: React.FC<{ card: Card }> = ({ card }) => {
               <h2 className="flex text-2xl font-bold w-full leading-6">
                 {detail.title}
               </h2>
-              <div className="flex">
+              <div className="flex flex-col md:flex-row">
                 <Image
                   src={detail.image}
                   alt="about us"
                   width={300}
                   height={300}
-                  className="w-50 h-56 object-cover rounded-lg hover:scale-105 transition-scale duration-500 ease-in-out"
+                  className="w-40 h-40 md:w-50 md:h-56 object-cover rounded-lg hover:scale-105 transition-scale duration-500 ease-in-out"
                 />
-                <p className="text-lg pl-3">{detail.description}</p>
+                <p className="w-1/2 md:w-full text-lg pl-3">
+                  {detail.description}
+                </p>
               </div>
             </div>
             {/* <MenuLinkBtn link={detail.url} />{" "} */}

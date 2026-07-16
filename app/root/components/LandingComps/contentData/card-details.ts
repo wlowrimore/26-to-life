@@ -23,10 +23,10 @@ export const cardDetails = [
   },
   {
     id: 4,
-    title: "Extras",
+    title: "Session Series",
     description:
       "We specialize in a wide range of veneers, necks, and affordable kit builds.",
     image: "/images/kit_1.jpeg",
-    url: "kits_and_more",
+    url: "session_series",
   },
 ];
