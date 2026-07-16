@@ -24,7 +24,7 @@ const HeroMenuCard: React.FC<{ card: Card }> = ({ card }) => {
       direction={"down"}
       duration={1000}
       triggerOnce
-      className="bg-white/70 text-black w-1/2 md:w-full rounded-lg shadow-lg p-4 my-4 flex flex-col justify-center mx-auto hover:bg-indigo-500/50 hover:text-white transition-colors duration-500 ease-in-out"
+      className="bg-white/70 text-black w-1/2 md:w-full h-fit rounded-lg shadow-lg p-4 flex flex-col justify-center mx-auto hover:bg-indigo-500/50 hover:text-white transition-colors duration-500 ease-in-out"
     >
       {Details.map((detail) => (
         <Link href={detail.url} key={detail.id}>

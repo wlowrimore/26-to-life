@@ -16,10 +16,10 @@ export const cardDetails = [
   },
   {
     id: 3,
-    title: "Gallery",
+    title: "Gallery Series",
     description: "Coming Soon",
     image: "/images/gallery_image.jpeg",
-    url: "/gallery",
+    url: "/gallery_series",
   },
   {
     id: 4,

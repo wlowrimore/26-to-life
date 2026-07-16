@@ -27,7 +27,7 @@ const Hero = () => {
       >
         <div className='absolute top-3 right-3 bg-[url("/logos/26_brand_logo.png")] bg-cover bg-center h-20 w-20 opacity-60'></div>
         {isMenuRevealed && (
-          <div className="absolute inset-0 flex items-center">
+          <div className="absolute inset-2 flex items-center justify-center">
             <HeroMenu />
           </div>
         )}

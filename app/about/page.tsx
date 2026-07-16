@@ -58,7 +58,10 @@ const AboutPage = () => {
 
           {/* Callout / Blockquote statement */}
           <div className="my-8 border-l-4 border-zinc-500 pl-4 py-1 italic text-xl text-indigo-200 font-light">
-            "I am a player, building a player’s instrument."
+            "I am a player, building a player&apos;s instrument." <br />
+            <span className="text-zinc-300 text-sm not-italic">
+              - William Lowrimore ( Founder/CEO of 26 Roots )
+            </span>
           </div>
         </section>
 
