@@ -51,7 +51,7 @@ const TopNavbar = () => {
             {/* <div className="h-0.5 bg-zinc-600 w-[20%]"></div> */}
           </div>
         </>
-      ) : currentPath !== "/about" ? (
+      ) : currentPath !== "/about" && currentPath !== "/" ? (
         <div className="w-full flex justify-evenly items-center mx-auto text-white">
           <Link
             href="/about"

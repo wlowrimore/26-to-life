@@ -8,25 +8,32 @@ export const cardDetails = [
   },
   {
     id: 2,
-    title: "Locally Sourced",
-    description:
-      "We pride ourselves in our commitment to local sources right here in Tennessee.",
-    image: "/images/wood_source.jpeg",
-    url: "/lumber",
-  },
-  {
-    id: 3,
     title: "Gallery Series",
     description: "Coming Soon",
     image: "/images/gallery_image.jpeg",
     url: "/gallery_series",
   },
   {
-    id: 4,
+    id: 3,
     title: "Session Series",
     description:
       "We specialize in a wide range of veneers, necks, and affordable kit builds.",
     image: "/images/kit_1.jpeg",
     url: "session_series",
+  },
+  // {
+  //   id: 2,
+  //   title: "Locally Sourced",
+  //   description:
+  //     "We pride ourselves in our commitment to local sources right here in Tennessee.",
+  //   image: "/images/wood_source.jpeg",
+  //   url: "/lumber",
+  // },
+  {
+    id: 4,
+    title: "Custom Builds",
+    description: "Coming Soon",
+    image: "/images/custom_j_redwood_body.jpeg",
+    url: "/custom_builds",
   },
 ];
