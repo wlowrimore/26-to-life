@@ -201,7 +201,7 @@ const Contact = () => {
           </p>
           <button
             onClick={() => setIsModalOpen(true)}
-            className="w-fit font-light tracking-wide text-lg py-2 px-4 bg-indigo-300/80 hover:bg-indigo-300 transition-colors rounded text-black mb-6 mt-4 cursor-pointer"
+            className="w-fit font-light tracking-wide text-lg  py-2 px-4 bg-indigo-200/60 hover:bg-zinc-800 transition-colors rounded text-black hover:text-white mb-6 mt-4 cursor-pointer"
           >
             Yes, Sign Me Up
           </button>
