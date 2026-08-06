@@ -66,7 +66,7 @@ const TopNavbar = () => {
             Stock
           </Link>
           <Link
-            href="/request"
+            href="/request_a_quote"
             className="flex w-full justify-center items-center px-2 rounded hover:bg-indigo-200/60 hover:text-black transition-colors duration-300 ease-in-out"
           >
             Request Form
